@@ -1,0 +1,152 @@
+[
+  {
+    "key": "common",
+    "type": "objects",
+    "value": [
+      {
+        "key": "follow",
+        "type": "added",
+        "newValue": false
+      },
+      {
+        "key": "setting1",
+        "type": "equal",
+        "value": "Value 1"
+      },
+      {
+        "key": "setting2",
+        "type": "removed",
+        "oldValue": 200
+      },
+      {
+        "key": "setting3",
+        "type": "changed",
+        "oldValue": true,
+        "newValue": null
+      },
+      {
+        "key": "setting4",
+        "type": "added",
+        "newValue": "blah blah"
+      },
+      {
+        "key": "setting5",
+        "type": "added",
+        "newValue": [
+          {
+            "key": "key5",
+            "type": "equal",
+            "value": "value5"
+          }
+        ]
+      },
+      {
+        "key": "setting6",
+        "type": "objects",
+        "value": [
+          {
+            "key": "doge",
+            "type": "objects",
+            "value": [
+              {
+                "key": "wow",
+                "type": "changed",
+                "oldValue": "",
+                "newValue": "so much"
+              }
+            ]
+          },
+          {
+            "key": "key",
+            "type": "equal",
+            "value": "value"
+          },
+          {
+            "key": "ops",
+            "type": "added",
+            "newValue": "vops"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "group1",
+    "type": "objects",
+    "value": [
+      {
+        "key": "baz",
+        "type": "changed",
+        "oldValue": "bas",
+        "newValue": "bars"
+      },
+      {
+        "key": "foo",
+        "type": "equal",
+        "value": "bar"
+      },
+      {
+        "key": "nest",
+        "type": "changed",
+        "oldValue": [
+          {
+            "key": "key",
+            "type": "equal",
+            "value": "value"
+          }
+        ],
+        "newValue": "str"
+      }
+    ]
+  },
+  {
+    "key": "group2",
+    "type": "removed",
+    "oldValue": [
+      {
+        "key": "abc",
+        "type": "equal",
+        "value": 12345
+      },
+      {
+        "key": "deep",
+        "type": "objects",
+        "value": [
+          {
+            "key": "id",
+            "type": "equal",
+            "value": 45
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "group3",
+    "type": "added",
+    "newValue": [
+      {
+        "key": "deep",
+        "type": "objects",
+        "value": [
+          {
+            "key": "id",
+            "type": "objects",
+            "value": [
+              {
+                "key": "number",
+                "type": "equal",
+                "value": 45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fee",
+        "type": "equal",
+        "value": 100500
+      }
+    ]
+  }
+]
