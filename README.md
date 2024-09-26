@@ -1,6 +1,9 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/erzhan12/python-project-50/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/erzhan12/python-project-50/actions)
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/1e4a9529e817bd5e52e0/maintainability)](https://codeclimate.com/github/erzhan12/python-project-50/maintainability)
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/1e4a9529e817bd5e52e0/maintainability)](https://codeclimate.com/github/erzhan12/python-project-50/maintainability)
 ---
 ### Description:
 The package functionality is finding differences between two given files (.json or .yaml)
@@ -15,7 +18,7 @@ Command line execution:
 
 Usage in your own code:
 ```
-diff = gendiff(file_path1, file_path2, format_name)
+diff = generate_diff(file_path1, file_path2, format_name)
 ```
 
 ### Demo:
