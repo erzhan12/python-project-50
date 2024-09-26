@@ -1,5 +1,5 @@
-from .file_reader import read_file
-from ..formatter.formatter import format_
+from gendiff.scripts.file_reader import read_file
+from gendiff.formatter.formatter import format_
 
 
 def gen_diff_object(obj1, obj2):
