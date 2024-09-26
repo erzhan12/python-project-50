@@ -3,7 +3,6 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/1e4a9529e817bd5e52e0/maintainability)](https://codeclimate.com/github/erzhan12/python-project-50/maintainability)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/1e4a9529e817bd5e52e0/maintainability)](https://codeclimate.com/github/erzhan12/python-project-50/maintainability)
 ---
 ### Description:
 The package functionality is finding differences between two given files (.json or .yaml)
